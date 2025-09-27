@@ -1,0 +1,54 @@
+{
+  "name": "Quick Insight",
+  "short_name": "Quick Insight",
+  "description": "Получайте актуальные новости и инсайты в удобном формате",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#00153E",
+  "theme_color": "#2E3247",
+  "orientation": "portrait",
+  "scope": "/",
+  "lang": "ru",
+  "categories": ["news", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "375x812",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Новости",
+      "short_name": "Новости",
+      "description": "Просмотр последних новостей",
+      "url": "/",
+      "icons": [
+        {
+          "src": "/icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
